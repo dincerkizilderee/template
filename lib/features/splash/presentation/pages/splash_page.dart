@@ -13,7 +13,7 @@ class SplashPage extends StatelessWidget {
             const Icon(Icons.rocket_launch, size: 80, color: Colors.blue),
             const SizedBox(height: 24),
             Text(
-              'Iztek Template',
+              'Core UI Template',
               style: Theme.of(
                 context,
               ).textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.bold),

@@ -1,4 +1,4 @@
-# Iztek Template - Enterprise Flutter Projesi
+# Core UI Template - Enterprise Flutter Projesi
 
 Bu proje, Flutter ile geliştirilmiş, büyük ölçekli ve kurumsal seviye uygulamalar geliştirmek için hazırlanmış **Clean Architecture** tabanlı kusursuz bir proje şablonudur. (Template)
 
@@ -53,7 +53,7 @@ Birim (Unit) testlerinin kolayca yazılabilmesi için `mocktail` entegre edilmi�
 ### 1. Projeyi Klonlayın
 ```bash
 git clone <repo_url>
-cd iztek_template
+cd core_ui_template
 ```
 
 ### 2. Bağımlılıkları Yükleyin
@@ -98,4 +98,4 @@ Sol menüdeki `Run and Debug` tabına giderek;
 seçeneklerinden birine tıklayıp doğrudan uygulamayı Play (F5) butonu ile ayağa kaldırabilirsiniz. (Konfigürasyonlar `.vscode/launch.json` içerisinde mevcuttur).
 
 ---
-*Iztek Enterprise Template by Dinçer KIZILDERE*
+*Core UI Enterprise Template by Dinçer KIZILDERE*

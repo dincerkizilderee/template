@@ -54,7 +54,7 @@ class IztekApp extends ConsumerWidget {
     // Şimdilik AppRouter içerisindeki statik yapı tercih edildi.
 
     return MaterialApp.router(
-      title: 'Iztek Template',
+      title: 'Core UI Template',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system, // Veya state üzerinden okunabilir

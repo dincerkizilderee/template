@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:iztek_template/features/auth/data/datasources/auth_remote_data_source.dart';
-import 'package:iztek_template/features/auth/data/repositories/auth_repository_impl.dart';
-import 'package:iztek_template/features/auth/domain/entities/user.dart';
+import 'package:core_ui_template/features/auth/data/datasources/auth_remote_data_source.dart';
+import 'package:core_ui_template/features/auth/data/repositories/auth_repository_impl.dart';
+import 'package:core_ui_template/features/auth/domain/entities/user.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:iztek_template/core/errors/failures.dart';
+import 'package:core_ui_template/core/errors/failures.dart';
 
 class MockAuthRemoteDataSource extends Mock implements AuthRemoteDataSource {}
 
