@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+# Check formatting
+echo "Running dart format..."
+dart format --set-exit-if-changed .
+
+if [ $? -ne 0 ]; then
+  echo "Code formatting issues found. Commit rejected."
+  exit 1
+fi
+
+# Run analyzer
+echo "Running flutter analyze..."
+flutter analyze
+
+if [ $? -ne 0 ]; then
+  echo "Analyzer found issues. Commit rejected."
+  exit 1
+fi
+
+echo "All pre-commit checks passed!"

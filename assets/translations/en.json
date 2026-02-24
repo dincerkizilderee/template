@@ -1,0 +1,13 @@
+{
+    "login": {
+        "title": "Welcome Back",
+        "subtitle": "Please sign in to continue",
+        "email_hint": "Enter your email",
+        "password_hint": "Enter your password",
+        "button": "Sign In"
+    },
+    "errors": {
+        "network": "A network error occurred.",
+        "unknown": "An unknown error occurred."
+    }
+}

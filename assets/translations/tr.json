@@ -1,0 +1,13 @@
+{
+    "login": {
+        "title": "Tekrar Hoşgeldiniz",
+        "subtitle": "Devam etmek için giriş yapın",
+        "email_hint": "E-posta adresinizi girin",
+        "password_hint": "Şifrenizi girin",
+        "button": "Giriş Yap"
+    },
+    "errors": {
+        "network": "Bir ağ hatası oluştu.",
+        "unknown": "Bilinmeyen bir hata oluştu."
+    }
+}
